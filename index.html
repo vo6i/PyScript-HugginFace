@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title> 💢💀D💩🚽C👹L💲X💯V☣️🤡I👀💬C🚸☢️L🎮🗿A👽👁‍🗨N🦸‍♂️🔥</title>
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    
+    <py-env>
+     - torch
+     - transformers
+     - streamlit 
+    </py-env>
+  </head>
+  <body>
+    <py-script> 
+      import streamlit as st
+      from transformers import pipeline
+
+      pipe = pipeline('sentiment-analysis')
+      text = st.text_area('entet fcku text dclxviclan🐇💬')
+
+      if text:
+          out = pipe(text)
+          st.json(out)
+    </py-script> 
+  </body>
+</html>
